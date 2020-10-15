@@ -173,7 +173,6 @@ class _SearchPageState extends State<SearchPage> {
 class ShowWeather extends StatelessWidget {
   WeatherModel weather;
   final city;
-
   ShowWeather(this.weather, this.city);
 
   @override
